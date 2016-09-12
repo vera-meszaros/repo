@@ -44,9 +44,9 @@ function colorClock(){
   if (hours<10){
     hours ='0'+hours;
   }
-  var hoursColor = hours + hours + hours + hours;
-  var minutesColor = minutes + minutes - 21;
-  var secondsColor = seconds + seconds - 21;
+  var hoursColor = hours;
+  var minutesColor = minutes;
+  var secondsColor = seconds;
   
   var hexColor = '#' + hoursColor + minutesColor + secondsColor;
   var clockFace = hours+ ':' + minutes + ':' + seconds;
